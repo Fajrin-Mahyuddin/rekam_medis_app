@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 [{"/Users/fajrin/Documents/PROJECT/rekam_medis_app/src/App.tsx":"1"},{"size":427,"mtime":1611499141607,"results":"2","hashOfConfig":"3"},{"filePath":"4","messages":"5","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"1wfmp0u","/Users/fajrin/Documents/PROJECT/rekam_medis_app/src/App.tsx",[]]
+=======
+<<<<<<< HEAD
+[{"/var/www/html/rekam_medis_app/src/index.tsx":"1","/var/www/html/rekam_medis_app/src/reportWebVitals.ts":"2","/var/www/html/rekam_medis_app/src/App.tsx":"3"},{"size":500,"mtime":1611495245583,"results":"4","hashOfConfig":"5"},{"size":425,"mtime":1611495245583,"results":"6","hashOfConfig":"5"},{"size":556,"mtime":1611495245579,"results":"7","hashOfConfig":"5"},{"filePath":"8","messages":"9","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"142lapg",{"filePath":"10","messages":"11","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"12","messages":"13","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"/var/www/html/rekam_medis_app/src/index.tsx",[],"/var/www/html/rekam_medis_app/src/reportWebVitals.ts",[],"/var/www/html/rekam_medis_app/src/App.tsx",[]]
+=======
+[{"/Users/fajrin/Documents/PROJECT/rekam_medis_app/src/App.tsx":"1"},{"size":251,"mtime":1611497706630,"results":"2","hashOfConfig":"3"},{"filePath":"4","messages":"5","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"1wfmp0u","/Users/fajrin/Documents/PROJECT/rekam_medis_app/src/App.tsx",[]]
+>>>>>>> a4362818d0e9f8f36bcd43b86534773f12d2e1c1
+>>>>>>> 4aee92900310e8616acbd148751f8b02862df7ba
