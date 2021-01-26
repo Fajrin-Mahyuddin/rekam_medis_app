@@ -1,11 +1,16 @@
 import React from "react";
-import { Button } from "../components";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Dashboard, Login } from "../pages";
 
-export default function Navigate() {
+const Navigate = () => {
   return (
-    <div>
-      <Button title="Submit" />
-      <h1>ini Navigate</h1>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Login} />
+        <Route exact path="/dashboard" component={Dashboard} />
+      </Switch>
+    </BrowserRouter>
   );
-}
+};
+
+export default Navigate;

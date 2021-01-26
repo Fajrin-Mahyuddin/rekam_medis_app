@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Dashboard() {
+const Dashboard = () => {
   return (
     <div>
       <h1>Ini dashboard page</h1>
     </div>
   );
-}
+};
+
+export default Dashboard;
