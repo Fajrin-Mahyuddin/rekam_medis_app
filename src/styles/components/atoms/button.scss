@@ -1,0 +1,13 @@
+button {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.primary-btn {
+  background-color: $primary-color;
+  color: $white;
+}
+
+.btn-medium {
+  padding: 10px 15px;
+}

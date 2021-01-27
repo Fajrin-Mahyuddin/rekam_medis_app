@@ -1,4 +1,5 @@
 import Button from "./button/Button";
-import Image from "./images/img";
+import Images from "./images/img";
+import ListMenu from "./listItems/ListMenu";
 
-export { Button, Image };
+export { Button, Images, ListMenu };

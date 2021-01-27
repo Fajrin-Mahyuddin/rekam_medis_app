@@ -1,9 +1,12 @@
 import React from "react";
+import { Button, LoginTemplate } from "components";
 
-export default function Login() {
+const Login = () => {
   return (
-    <div>
-      <h1>Login Page</h1>
-    </div>
+    <LoginTemplate>
+      <Button title="submit" type_btn="primary-btn btn-medium" />
+    </LoginTemplate>
   );
-}
+};
+
+export default Login;
