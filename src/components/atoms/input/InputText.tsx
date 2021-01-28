@@ -1,5 +1,12 @@
-import React from "react";
+import React, { InputHTMLAttributes } from "react";
 
-export default function InputText() {
-  return <input type="text" />;
+interface IInputText extends InputHTMLAttributes<HTMLInputElement> {
+  id: string;
+  type: string;
 }
+
+const InputText: React.FC<IInputText> = ({ type, id, ...props }) => {
+  return <input type={type} id={id} {...props} />;
+};
+
+export default InputText;

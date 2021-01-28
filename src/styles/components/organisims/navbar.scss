@@ -1,10 +1,32 @@
 header {
   width: 100vw;
-  background-color: red;
+  position: absolute;
+  background-color: transparent;
   height: 8vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  z-index: 199;
+  img {
+    width: 3vw;
+  }
+  .menus {
+    ul {
+      display: flex;
+      flex-direction: row;
+      li {
+        a {
+          color: $primary-color;
+          border-radius: 5px;
+          font-size: 17px;
+          &:hover {
+            background-color: $primary-color;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
 }

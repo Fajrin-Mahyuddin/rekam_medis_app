@@ -1,20 +1,19 @@
-import React from "react";
+import React, { ReactNode, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { IonIcon, IonLabel } from "@ionic/react";
+import { IoHomeOutline } from "react-icons/io5";
 
 interface Data {
   data: {
     nama: string;
-    ico: string;
+    Ico: JSX.Element;
   };
 }
 
-const ListMenu: React.FC<Data> = ({ data: { nama, ico } }) => {
+const ListMenu: React.FC<Data> = ({ data: { nama, Ico } }) => {
   return (
     <li>
       <NavLink to="/">
-        <IonIcon className="icon" icon={ico} />
-        <IonLabel> {nama}</IonLabel>
+        {Ico} {nama}
       </NavLink>
     </li>
   );

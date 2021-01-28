@@ -1,3 +1,4 @@
 export * from "./atoms";
-export * from "./templates";
+export * from "./cards";
 export * from "./organisims";
+export * from "./templates";
