@@ -1,26 +1,19 @@
 import React from "react";
 import { Images, ListMenu } from "components";
 import { Logo } from "images";
-import { IoHomeOutline, IoCogOutline } from "react-icons/io5";
 
 interface HeaderProps {
-  data?: {};
+  data?: any[];
 }
 
-const menus: { nama: string; Ico: JSX.Element }[] = [
-  { nama: "Dashboard", Ico: <IoHomeOutline /> },
-  { nama: "Setting", Ico: <IoCogOutline /> },
-];
-
-const Navbar: React.FC<HeaderProps> = (_props) => {
+const Navbar: React.FC<HeaderProps> = ({ data }) => {
   return (
     <header>
       <Images source={Logo} alt="logo_navbar" />
       <div className="menus">
         <ul>
-          {menus.length > 0 &&
-            menus.map((item, i) => {
-              console.log(item);
+          {data &&
+            data.map((item, i) => {
               return <ListMenu key={i} data={item} />;
             })}
         </ul>

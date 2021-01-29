@@ -1,11 +1,11 @@
 import React from "react";
 
 interface IBody {
-  style: string;
+  styles: string;
 }
 
-const Body: React.FC<IBody> = ({ style, children }) => {
-  return <section className={`container ${style}`}>{children}</section>;
+const Body: React.FC<IBody> = ({ styles, children }) => {
+  return <section className={`container ${styles}`}>{children}</section>;
 };
 
 export default Body;
