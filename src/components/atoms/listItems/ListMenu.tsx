@@ -1,18 +1,18 @@
-import React, { ReactNode, useEffect, useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
-import { IoHomeOutline } from "react-icons/io5";
 
 interface Data {
   data: {
     nama: string;
+    path: string;
     Ico: JSX.Element;
   };
 }
 
-const ListMenu: React.FC<Data> = ({ data: { nama, Ico } }) => {
+const ListMenu: React.FC<Data> = ({ data: { nama, path, Ico } }) => {
   return (
     <li>
-      <NavLink to="/">
+      <NavLink to={path}>
         {Ico} {nama}
       </NavLink>
     </li>

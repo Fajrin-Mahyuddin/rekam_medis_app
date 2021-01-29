@@ -1,4 +1,4 @@
-import React, { ReactEventHandler } from "react";
+import React, { useState } from "react";
 import {
   Body,
   Button,
@@ -14,11 +14,16 @@ import {
   IoLogoFacebook,
   IoLogoGoogle,
 } from "react-icons/io5";
+import { NavLink, Redirect } from "react-router-dom";
 
 const Login = () => {
+  const [isLogin, setIsLogin] = useState(false);
+  if (isLogin) {
+    return <Redirect to="/dashboard" />;
+  }
   return (
     <LoginTemplate>
-      <Body style="row">
+      <Body styles="row">
         <div className="form-login">
           <div className="form-wrapper">
             <div className="welcome-text">
@@ -63,13 +68,13 @@ const Login = () => {
                 />
               </div>
               <div className="horizontal">
-                <a href="# ">Forget Password ?</a>
+                <NavLink to="/dashboard">Forget Password ?</NavLink>
               </div>
             </div>
             <div className="horizontal">
               <Button
                 title="Sign In"
-                onClick={() => console.log("ok")}
+                onClick={() => setIsLogin(true)}
                 type_btn="info-btn p-5-15 m-10-0 mr-5"
               />
               <Button title="Register" type_btn="warning-btn p-5-15 m-10-0" />
