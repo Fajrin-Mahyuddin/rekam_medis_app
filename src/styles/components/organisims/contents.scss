@@ -1,0 +1,48 @@
+.colums {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  .form-login,
+  .image-login {
+    height: 100vh;
+  }
+  .form-login {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../../images/assets/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-login {
+    width: 55vw;
+    position: relative;
+    img {
+      &:nth-child(1) {
+        position: absolute;
+        width: 13vw;
+        left: 4vw;
+        bottom: 0;
+        z-index: -1;
+      }
+      &:nth-child(2) {
+        position: absolute;
+        width: 27vw;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      &:nth-child(3) {
+        position: absolute;
+        width: 29vw;
+        top: 10vh;
+        right: 13vw;
+        z-index: -1;
+      }
+    }
+  }
+}

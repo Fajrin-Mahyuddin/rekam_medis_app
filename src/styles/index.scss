@@ -1,0 +1,66 @@
+@import "./variables.scss";
+@import "./components/index.scss";
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+// .container {
+//   padding-top: 8vh;
+// }
+
+.m-10 {
+  margin: 10px;
+}
+
+.m-5 {
+  margin: 5;
+}
+
+.m-0-10 {
+  margin: 0 10px;
+}
+
+.m-10-0 {
+  margin: 10px 0;
+}
+
+.m-20-0 {
+  margin: 20px 0;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.p-5-10 {
+  padding: 5px 10px;
+}
+
+.p-5-15 {
+  padding: 7px 15px;
+}
+
+.p-10-15 {
+  padding: 10px 15px;
+}
+
+.justify-spare-between {
+  justify-content: space-between;
+}
