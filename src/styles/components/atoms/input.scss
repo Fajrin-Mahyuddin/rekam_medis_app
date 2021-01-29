@@ -1,12 +1,38 @@
 .input-wrapper {
+  position: relative;
+  font-size: 15px;
   input {
-    padding: 5px 10px;
+    padding: 5px 10px 5px 25px;
     border-radius: 5px;
+    height: 30px;
     outline: none;
     border: none;
+    font-size: 13px;
+  }
+  label {
+    font-size: 13px;
+  }
+  svg {
+    position: absolute;
+    top: 24px;
+    left: 7px;
+    color: $grey;
   }
 }
 .vertical {
   display: flex;
   flex-direction: column;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  label {
+    margin: 0 5px;
+  }
+  input {
+    width: 1.5vw;
+  }
 }

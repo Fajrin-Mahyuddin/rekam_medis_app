@@ -2,9 +2,37 @@ button {
   border: none;
   border-radius: 5px;
   outline: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 15px;
+  svg {
+    margin-right: 5px;
+  }
 }
 .primary-btn {
   background-color: $primary-color;
+  color: $white;
+}
+
+.info-btn {
+  background-color: $info-color;
+  color: $white;
+}
+
+.warning-btn {
+  background-color: $warning-color;
+  color: $white;
+}
+
+.facebook-btn {
+  background-color: $facebook-blue;
+  color: $white;
+}
+.google-btn {
+  background-color: $google-blue;
   color: $white;
 }
 
