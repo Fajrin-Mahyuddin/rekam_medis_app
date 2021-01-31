@@ -8,12 +8,7 @@ import {
   LoginTemplate,
 } from "components";
 // import { AssetOne, AssetTwo, AssetThree } from "images";
-// import {
-//   IoPersonOutline,
-//   IoKeyOutline,
-//   IoLogoFacebook,
-//   IoLogoGoogle,
-// } from "react-icons/io5";
+import { IoChevronForwardSharp } from "react-icons/io5";
 // import { Redirect } from "react-router-dom";
 
 const Dashboard = () => {
@@ -23,10 +18,12 @@ const Dashboard = () => {
   // }
   return (
     <LoginTemplate>
-      <Body styles="row">
-        <div>sidebar</div>
-        <div>content</div>
-        <div>footer</div>
+      <Body styles="content-wrapper">
+        <div className="content">
+          <div className="breacrumbs">
+            dashboard <IoChevronForwardSharp /> content
+          </div>
+        </div>
       </Body>
     </LoginTemplate>
   );

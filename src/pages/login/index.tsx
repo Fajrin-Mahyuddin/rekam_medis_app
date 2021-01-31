@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import {
-  Body,
   Button,
   Footer,
   Images,
@@ -23,7 +22,7 @@ const Login = () => {
   }
   return (
     <LoginTemplate>
-      <Body styles="row">
+      <section className="row">
         <div className="form-login">
           <div className="form-wrapper">
             <div className="welcome-text">
@@ -103,7 +102,7 @@ const Login = () => {
           <Images source={AssetTwo} alt="AssetTwo" />
           <Images source={AssetThree} alt="AssetThree" />
         </div>
-      </Body>
+      </section>
     </LoginTemplate>
   );
 };
