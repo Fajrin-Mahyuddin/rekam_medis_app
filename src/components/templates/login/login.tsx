@@ -4,6 +4,7 @@ import {
   IoLogInOutline,
   IoBookOutline,
   IoHelpCircleOutline,
+  IoCogOutline,
 } from "react-icons/io5";
 import { Images } from "components";
 import { Profile } from "images";
@@ -20,7 +21,7 @@ interface Data {
 
 const menu_dashboard: { nama: string; path: string; Ico: JSX.Element }[] = [
   { nama: "Profile", path: "/acticles", Ico: <IoBookOutline /> },
-  { nama: " ", path: "/help", Ico: <Images source={Profile} alt="icon" /> },
+  { nama: "Setting", path: "/help", Ico: <IoCogOutline /> },
 ];
 
 const LoginTemplate = ({ children }: Data) => {

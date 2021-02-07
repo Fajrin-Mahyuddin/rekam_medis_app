@@ -24,10 +24,13 @@ header {
           &:hover {
             background-color: $primary-color;
             color: $white;
+            &:has(+ img) {
+              background-color: transparent;
+            }
           }
           img {
             border-radius: 50%;
-            width: 2vw;
+            width: 1.2vw;
           }
         }
         .active {

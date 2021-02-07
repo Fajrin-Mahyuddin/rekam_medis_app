@@ -23,6 +23,7 @@ const Dashboard = () => {
           <div className="breacrumbs">
             dashboard <IoChevronForwardSharp /> content
           </div>
+          <div className="body">ini bodi</div>
         </div>
       </Body>
     </LoginTemplate>
