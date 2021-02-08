@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Body,
+  Breadcrumbs,
   // Button,
   // Footer,
   // Images,
@@ -20,10 +21,11 @@ const Dashboard = () => {
     <LoginTemplate>
       <Body styles="content-wrapper">
         <div className="content">
-          <div className="breacrumbs">
-            dashboard <IoChevronForwardSharp /> content
+          <Breadcrumbs />
+          <div className="body">
+            Selamat Datang...
+            <div className="cards-wrapper">this card</div>
           </div>
-          <div className="body">ini bodi</div>
         </div>
       </Body>
     </LoginTemplate>

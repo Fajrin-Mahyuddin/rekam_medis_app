@@ -13,7 +13,7 @@ const Navigate = () => {
           component={() => (
             <h2 className="center-text">
               404 Not Found ! <br />
-              This site under maintenance.
+              This site under maintenance
             </h2>
           )}
         />

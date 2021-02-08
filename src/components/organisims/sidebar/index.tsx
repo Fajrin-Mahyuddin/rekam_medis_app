@@ -4,6 +4,10 @@ import {
   IoGridOutline,
   IoChevronDownOutline,
   IoChevronForwardSharp,
+  IoBusinessOutline,
+  IoMedkitOutline,
+  IoAccessibilityOutline,
+  IoCashOutline,
 } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 import { Logo } from "images";
@@ -27,6 +31,34 @@ export default function Sidebar() {
             </NavLink>
           </li>
           <li className="sidemenu-item">
+            <NavLink to="/riwayat-penyakit">
+              <span>
+                <IoAccessibilityOutline /> Riwayat Penyakit
+              </span>
+            </NavLink>
+          </li>
+          <li className="sidemenu-item">
+            <NavLink to="/riwayat-pengobatan">
+              <span>
+                <IoMedkitOutline /> Riwayat Pengobatan
+              </span>
+            </NavLink>
+          </li>
+          <li className="sidemenu-item">
+            <NavLink to="/riwayat-perawatan">
+              <span>
+                <IoBusinessOutline /> Riwayat Perawatan
+              </span>
+            </NavLink>
+          </li>
+          <li className="sidemenu-item">
+            <NavLink to="/riwayat-tagihan">
+              <span>
+                <IoCashOutline /> Riwayat Tagihan
+              </span>
+            </NavLink>
+          </li>
+          {/* <li className="sidemenu-item">
             <NavLink to="/master-data">
               <span>
                 <IoCafeSharp /> Data Master
@@ -42,7 +74,7 @@ export default function Sidebar() {
                 </NavLink>
               </li>
             </ul>
-          </li>
+          </li> */}
         </ul>
       </div>
     </aside>
